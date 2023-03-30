@@ -7,6 +7,7 @@
 body {
   background-color: #193f45;
 }
+
 .container {
   font-size: 16px;
   background-color: #ffffff;
@@ -20,6 +21,15 @@ body {
   border-radius: 0.6em;
   box-shadow: 0 1.2em 2.4em rgba(1, 82, 111, 0.25);
 }
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+  .container {
+    padding: 0.5em;
+    max-width: 90vw;
+  }
+}
+
 #options-container {
   text-align: center;
 }
